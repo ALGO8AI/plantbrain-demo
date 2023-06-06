@@ -1,12 +1,29 @@
 <html>
-    <head>
-        <meta charset="UTF-8" />    
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />    
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="./favicon.ico">
-        <title>PlantBrain</title>
-    </head>
-    <body style="margin: -12px 0px 0px 0px;">
-        <iframe width="100%" height="100%" src="https://xd.adobe.com/embed/6515c543-1f3a-4298-8d5a-4a1265728951-3046/?fullscreen" frameborder="0" allowfullscreen style="margin-top:0px"></iframe>
-    </body>
+
+<head>
+    <meta charset="UTF-8" />   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <title>PlantBrain</title>
+    <script>
+        function validate() {
+            var username = prompt("Enter username:");
+            var password = prompt("Enter password:");
+
+            if (username === "ALGO8AI" && password === "#y$P$OtQl3t25*f") {
+                document.body.style.display = "inline";
+            } else {
+                document.body.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body style="margin: -12px 0px 0px 0px;display: none;" onload="validate()">
+    <iframe width="100%" height="100%"
+        src="https://xd.adobe.com/embed/6515c543-1f3a-4298-8d5a-4a1265728951-3046/?fullscreen" frameborder="0"
+        allowfullscreen style="margin-top:0px"></iframe>
+</body>
+
 </html>
